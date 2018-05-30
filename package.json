@@ -9,7 +9,7 @@
   "description": "A boilerplate for building standalone Javascript libraries",
   "main": "index.js",
   "repository": "https://github.com/jsrbn/js-library-boilerplate",
-  "author": "jsrbn",
+  "author": "Eyk Rehbein",
   "license": "MIT",
   "private": false,
   "devDependencies": {
