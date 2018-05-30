@@ -1,0 +1,23 @@
+{
+  "name": "js-library-boilerplate",
+  "scripts": {
+    "build": "browserify src/index.js --s myLibraryName -t babelify -o dist/library.js && uglifyjs dist/library.js -c --output dist/library.min.js",
+    "minify": "uglifyjs dist/library.js -c --output dist/library.min.js",
+    "watch": "watchify src/index.js -d --s myLibraryName -t babelify -o dist/library.js"
+  },
+  "version": "1.0.0",
+  "description": "A boilerplate for building standalone Javascript libraries",
+  "main": "index.js",
+  "repository": "https://github.com/jsrbn/js-library-boilerplate",
+  "author": "jsrbn",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "babel-preset-env": "2.0.0-alpha.20",
+    "babelify": "^9.0.0",
+    "browserify": "^16.2.2",
+    "uglify-js": "^3.3.28",
+    "watchify": "^3.11.0"
+  }
+}
