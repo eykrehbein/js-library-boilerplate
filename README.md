@@ -5,6 +5,7 @@ A simple Boilerplate to easily build JS Libraries with **Browserify**, **Watchif
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Why?](#why)
 - [Support](#support)
 - [Contributing](#contributing)
 
@@ -53,6 +54,14 @@ yarn watch
 npm run watch
 ```
 
+## Why?
+I created this repo because I ran through the problem of creating an environment for a standalone-library I wanted to build. There was no boilerplate which had the following features:
+- Babel Next
+- Modules with Browserify or Webpack
+- Live Build (Watchify)
+- Code minimizing (UglifyJS)
+
+so I had to create my own.
 ## Support
 
 Please [open an issue](https://github.com/jsrbn/js-library-boilerplate/issues/new) for support.
